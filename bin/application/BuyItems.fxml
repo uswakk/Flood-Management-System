@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BuyItemsController">
+   <top>
+      <HBox prefHeight="60.0" prefWidth="788.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="83.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../WhatsApp%20Image%202022-11-27%20at%2011.38.31%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../istockphoto-1169088084-612x612.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <AnchorPane prefHeight="540.0" prefWidth="801.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="101.0" fitWidth="191.0" layoutX="29.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../WhatsApp%20Image%202022-11-27%20at%2011.38.33%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="122.0" fitWidth="132.0" layoutX="323.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../WhatsApp%20Image%202022-11-27%20at%2011.38.33%20PM%20(1).jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="154.0" fitWidth="190.0" layoutX="557.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../WhatsApp%20Image%202022-11-27%20at%2011.38.35%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="157.0" fitWidth="204.0" layoutX="41.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../WhatsApp%20Image%202022-11-27%20at%2011.38.36%20PM%20(1).jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="306.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: white;">
+               <image>
+                  <Image url="@../../../WhatsApp%20Image%202022-11-27%20at%2011.38.38%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="175.0" layoutX="544.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../WhatsApp%20Image%202022-11-27%20at%2011.38.37%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="83.0" layoutY="38.0" prefHeight="18.0" prefWidth="93.0" text="Home Essentials" textFill="#2482bc">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="356.0" layoutY="39.0" text="Soaps" textFill="#2482bc">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="598.0" layoutY="38.0" text="Water Bottles" textFill="#2482bc">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="262.0" text="Clothes" textFill="#2482bc">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="358.0" layoutY="262.0" text="Books" textFill="#2482bc">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="605.0" layoutY="262.0" text="Sleeping bags" textFill="#2482bc">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button layoutX="87.0" layoutY="195.0" mnemonicParsing="false" onAction="#Rs2000" style="-fx-background-color: black;" text="Rs. 2000" textFill="#f2ecec" />
+            <Button layoutX="362.0" layoutY="194.0" mnemonicParsing="false" onAction="#Rs500" prefHeight="28.0" prefWidth="64.0" style="-fx-background-color: black;" text="Rs. 500" textFill="#efecec" />
+            <Button layoutX="608.0" layoutY="195.0" mnemonicParsing="false" onAction="#Rs700" style="-fx-background-color: black;" text="RS. 700" textFill="#efecec" />
+            <Button layoutX="99.0" layoutY="461.0" mnemonicParsing="false" onAction="#Rs3000" style="-fx-background-color: black;" text="Rs. 3000" textFill="#efecec" />
+            <Button layoutX="374.0" layoutY="461.0" mnemonicParsing="false" onAction="#Rs1500" style="-fx-background-color: black;" text="Rs. 1500" textFill="#efecec" />
+            <Button layoutX="605.0" layoutY="461.0" mnemonicParsing="false" onAction="#Rs900" style="-fx-background-color: black;" text="Rs. 900" textFill="#efecec" />
+            <ImageView fitHeight="47.0" fitWidth="64.0" layoutX="679.0" layoutY="-55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../WhatsApp%20Image%202022-11-27%20at%2011.38.36%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="729.0" layoutY="-62.0" prefHeight="54.0" prefWidth="74.0">
+               <children>
+                  <Button layoutY="14.0" mnemonicParsing="false" onAction="#cart" style="-fx-background-color: black;" text="Cart" textFill="#eef229">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

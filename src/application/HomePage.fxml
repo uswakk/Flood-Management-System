@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomePageController">
+   <children>
+      <Text fill="#007be4" fontSmoothingType="LCD" layoutX="256.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30px; -fx-font-weight: bold;" text="Flood Relief Management System" textAlignment="CENTER" wrappingWidth="288.99999821186066" />
+      <Button layoutX="244.0" layoutY="235.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="313.0" style="-fx-background-color: #007be4; -fx-cursor: pointer;" styleClass="btn" stylesheets="@application.css" text="Donate Money" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#000000bd" />
+         </effect>
+      </Button>
+      <Button layoutX="244.0" layoutY="360.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="313.0" style="-fx-background-color: #007be4; -fx-cursor: pointer;" styleClass="btn" stylesheets="@application.css" text="Buy Items" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#000000bd" />
+         </effect>
+      </Button>
+      <Button fx:id="logOut" layoutX="301.0" layoutY="489.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="52.0" prefWidth="200.0" style="-fx-background-color: #299ce3; -fx-cursor: pointer;" styleClass="btn" stylesheets="@application.css" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

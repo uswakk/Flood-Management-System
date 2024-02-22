@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #aee0f1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterController">
+   <children>
+      <TextField fx:id="fName" layoutX="69.0" layoutY="116.0" prefHeight="47.0" prefWidth="298.0" promptText="First Name" />
+      <TextField fx:id="email" layoutX="69.0" layoutY="261.0" prefHeight="47.0" prefWidth="298.0" promptText="example@email.com" />
+      <TextField fx:id="phoneNum" layoutX="69.0" layoutY="187.0" prefHeight="47.0" prefWidth="298.0" promptText="Phone Number " />
+      <TextField fx:id="cnic" layoutX="423.0" layoutY="187.0" prefHeight="47.0" prefWidth="298.0" promptText="CNIC" />
+      <TextField fx:id="lName" layoutX="423.0" layoutY="116.0" prefHeight="47.0" prefWidth="298.0" promptText="Last Name" />
+      <TextField fx:id="userName" layoutX="423.0" layoutY="261.0" prefHeight="47.0" prefWidth="298.0" promptText="User Name" />
+      <TextField fx:id="password" layoutX="69.0" layoutY="333.0" prefHeight="47.0" prefWidth="298.0" promptText="Password" />
+      <TextField fx:id="confirmPassword" layoutX="423.0" layoutY="333.0" prefHeight="47.0" prefWidth="298.0" promptText="Confirm Password" />
+      <CheckBox layoutX="87.0" layoutY="411.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="485.0" text=" I agree to all the Terms And Conditions">
+         <font>
+            <Font name="Roboto Bold" size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="87.0" layoutY="441.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="485.0" text=" I want to rceceive all the updates and sign up for the Newsletter">
+         <font>
+            <Font name="Roboto Bold" size="14.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="SignUp" layoutX="276.0" layoutY="482.0" mnemonicParsing="false" onAction="#registerUser" prefHeight="57.0" prefWidth="249.0" text="Sign Up" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text fill="#073440" layoutX="294.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" textAlignment="CENTER" wrappingWidth="213.0263671875">
+         <font>
+            <Font name="Roboto Medium" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="logIN" layoutX="418.0" layoutY="561.0" mnemonicParsing="false" onAction="#logIn" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: #aee0f1;" text="Log In" textAlignment="RIGHT" underline="true">
+         <font>
+            <Font name="Roboto Medium" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="315.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already a Member?">
+         <font>
+            <Font name="Roboto" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
